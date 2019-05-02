@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping(value="/Categoria")
+@RequestMapping(value="/categoria")
 
 public class CategoriaResouce {
 	
 	@RequestMapping(method=RequestMethod.GET)
-	public String list() {
+	public String listar() {
 		return "Rest esta Funcionando";
 	}
 
